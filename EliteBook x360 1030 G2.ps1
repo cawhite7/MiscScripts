@@ -2,7 +2,7 @@
 [console]::WindowHeight=10
 [console]::BufferWidth=[console]::WindowWidth
 
-$path = "\\cpnnetworking\networking\Casey White Public\Driver & Firmware Updates\EliteBook x360 1030 G2\Applications"
+$path = "\\share\networking\Casey White Public\Driver & Firmware Updates\EliteBook x360 1030 G2\Applications"
 
 [console]::WriteLine(     ""     )
 [console]::WriteLine("     DO NOT OVERWRITE SAME VERSIONS     "     )
