@@ -126,8 +126,8 @@ Import-Module ActiveDirectory
             $nameInt = "$givenName $initials. $surName"
         $samAccountName = "$($givenName.Substring(0,1))$surName"
         $samAccountNameInt = "$($givenName.Substring(0,1))$initials$surName"
-            $UPN = "$samAccountName@potawatomi.org"
-            $UPNInt = "$samAccountNameInt@potawatomi.org"
+            $UPN = "$samAccountName@domain.org"
+            $UPNInt = "$samAccountNameInt@domain.org"
 #       $givenName // Declared in Excel Columns
             $displayName = "$givenName $surName"
             $displayNameInt = "$givenName $initials. $surName"
@@ -135,7 +135,7 @@ Import-Module ActiveDirectory
         $description = $ID
         $title = $position
 #       $department // Declared in Excel Columns
-        $company = "Citizen Potawatomi Nation"
+        $company = "Company"
 #       $path // Declared in Excel Columns
         $TP = "$(Get-RandomConc)"
 
